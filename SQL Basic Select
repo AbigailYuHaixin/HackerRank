@@ -21,3 +21,17 @@
 # SELECT *
 # FROM CITY
 # WHERE COUNTRYCODE = 'JPN'
+
+6. Japanese Cities' Names
+# SELECT name
+# FROM CITY
+# WHERE COUNTRYCODE = 'JPN'
+
+7. Weather Observation Station 1
+# SELECT CITY, STATE
+# FROM STATION
+
+8. Weather Observation Station 3
+# SELECT DISTINCT(CITY)
+# FROM STATION
+# WHERE ID%2 = 0
